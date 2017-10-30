@@ -168,5 +168,5 @@ def plot_image(path):
         return [ax_s]
        # return [ax_s,ay_s,az_s,aa_s,ab_s,ac_s,ad_s,ae_s,af_s]
     return matplotlib.animation.FuncAnimation(fig, animate, frames=range(0,data.shape[2]), interval=200, blit=True)
-anm = plot_image('stage1%2Faps%2F0050492f92e22eed3474ae3a6fc907fa.aps')
+anm = plot_image('filename_here.aps')
 matplotlib.pyplot.show()
