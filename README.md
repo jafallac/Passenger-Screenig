@@ -1,0 +1,2 @@
+# Passenger-Screening
+We are designing an algorithm in Python using OpenCV and Tensorflow to read passenger images of file types aps, a3d, a3das, and ahi, and detect for possible threats that these images show.  Machine learning plays a key role in figuring out whether the person in the images used has an object on them or not.  Once the coding is complete, we will combine it with the webpages we developed to show the possibly of a potential threat on the person.  
