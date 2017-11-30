@@ -50,7 +50,7 @@
    // get file
    var file = e.target.files[0];
    
-   var fileTypes = ['jpg', 'jpeg', 'png', 'what', 'ever', 'you', 'want', 'a3d', 'aps'];  //acceptable file types
+   var fileTypes = ['a3d', 'aps'];  //acceptable file types
    var extension = e.target.files[0].name.split('.').pop().toLowerCase(),  //file extension from input file
        isSuccess = fileTypes.indexOf(extension) > -1;  //is extension in acceptable types
    if (isSuccess) {
