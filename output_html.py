@@ -1,5 +1,7 @@
 x = "No Threat Detected"
+y = "Threat Detected"
 Zone = "Zone 1"
+threat = False
 message = """<html lang="en">
 <head>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
@@ -70,10 +72,10 @@ message = """<html lang="en">
 
 with open("Output.html", "w") as my_file:
     my_file.write(message)
-    if x == "No Threat Detected":
+    if threat is False:
         my_file.write(x)
     else:
-        my_file.write(x)
+        my_file.write(y)
         my_file.write("<br>")
         my_file.write(Zone)
     my_file.write("</h2></body></html>")
