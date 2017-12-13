@@ -15,6 +15,7 @@ After training the machine, it could be used as a scanner to detect if an .aps f
 
 
 Results
+
 The results are shown, which include loss and accuracy of each threat zone.  The average accuracy is about 90.58%.
 
 
