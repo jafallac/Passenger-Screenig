@@ -37,4 +37,4 @@ output_html.py
 This python file creates an html file called Output.html.  The html file was going to be designed to show the results from scanning a .aps file's images, such as whether there is a threat or no threat, and if there is a threat, which zone(s).  The file only shows an example of how it could have displayed these results.
 
 
-In Yu's branch of this repository, he created a more detailed version of what our web app could be like.
+An updated version of the webpage is in the Passenger Screening file.  This webpage has features, such as our names and the ability to contact us.
